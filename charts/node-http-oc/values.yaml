@@ -3,8 +3,8 @@
 # Declare variables to be passed into your templates.
 replicaCount: 1
 image:
-  repository: draft
-  tag: dev
+  repository: http://docker-registry-default.192.168.99.100.nip.io/danielrusev/node-http-oc
+  tag: 0.0.6
   pullPolicy: IfNotPresent
 service:
   name: node-http-oc
